@@ -1,29 +1,117 @@
-# pruebagirosyfinanzas
+# 🚗 Sistema de Renta de Autos
 
-## Project setup
+Aplicación web desarrollada para la gestión de renta de vehículos, permitiendo a los usuarios consultar autos disponibles, realizar reservas y administrar información de manera sencilla y eficiente.
+
+---
+
+## 📌 Descripción
+
+El **Sistema de Renta de Autos** es una plataforma web que facilita la administración de servicios de alquiler de vehículos. Está construida con tecnologías modernas del lado del cliente, ofreciendo una experiencia rápida, dinámica y fácil de usar.
+
+El sistema permite visualizar autos disponibles, gestionar reservas y organizar la información sin necesidad de configuraciones complejas.
+
+---
+
+## 🚀 Características
+
+- 🚗 Visualización de autos disponibles
+- 📋 Gestión de reservas
+- 🔍 Búsqueda y filtrado de vehículos
+- 🧾 Información detallada de cada auto
+- 💾 Almacenamiento local (LocalStorage)
+- ⚡ Interfaz dinámica con Vue.js
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Vue.js** → Framework frontend
+- **JavaScript (ES6+)** → Lógica de la aplicación
+- **HTML5** → Estructura
+- **CSS3** → Estilos y diseño responsivo
+
+---
+
+## 📂 Estructura del proyecto
+
+```
+renta-autos/
+│
+├── 📁 src/
+│ ├── 📁 components/
+│ ├── 📁 views/
+│ ├── 📁 assets/
+│ └── main.js
+│
+├── 📁 public/
+│ └── index.html
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Instalación
+
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/tuusuario/renta-autos.git
+```
+Entrar al proyecto:
+```
+cd renta-autos
+```
+Instalar dependencias:
 ```
 npm install
 ```
+---
 
-### Compiles and hot-reloads for development
+## ▶️ Ejecución
 ```
-npm run serve
+npm run dev
 ```
+Abrir en navegador:
+```
+http://localhost:5173
+```
+---
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 💡 Funcionamiento
 
-### Run your tests
-```
-npm run test
-```
+El sistema permite a los usuarios:
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Explorar autos disponibles
+- Ver detalles de cada vehículo
+- Realizar reservas
+- Guardar información en el navegador mediante LocalStorage
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Todo esto mediante una interfaz reactiva construida con Vue.js.
+
+---
+## 🎨 Interfaz
+
+- Diseño moderno y responsivo
+- Navegación fluida sin recargas
+- Componentes reutilizables
+  
+---
+
+## 📈 Mejoras futuras
+
+- 🔐 Sistema de autenticación
+- ☁️ Integración con backend (API)
+- 📊 Panel de administración
+- 📱 Versión móvil optimizada
+- 💳 Sistema de pagos
+---
+
+## 👨‍💻 Autor
+
+Desarrollado por Isai Reyes Peña
+
+---
+## 📄 Licencia
+
+License MIT.
