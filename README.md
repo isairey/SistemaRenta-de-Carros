@@ -56,11 +56,11 @@ renta-autos/
 
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/tuusuario/renta-autos.git
+git clone https://github.com/isairey/SistemaRenta-de-Carros.git
 ```
 Entrar al proyecto:
 ```
-cd renta-autos
+cd SistemaRenta-de-Carros
 ```
 Instalar dependencias:
 ```
@@ -109,7 +109,7 @@ Todo esto mediante una interfaz reactiva construida con Vue.js.
 
 ## 👨‍💻 Autor
 
-Desarrollado por Isai Reyes Peña
+Desarrollado por **Isai Reyes Peña**
 
 ---
 ## 📄 Licencia
